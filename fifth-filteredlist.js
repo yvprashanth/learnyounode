@@ -32,16 +32,3 @@ module.exports = function(dirname,extension,callback){
         return callback(null,list);
     })
 };
-
-// module.exports =  function(path, extension, cb) {
-//   var regex = new RegExp(".*\\." + escape(extension) + "$")
-// 	fs.readdir(path, function(err, filenames) {
-// 		if (err) {
-// 			cb(err)
-// 		} else {
-// 			cb(false, filenames.filter(function(file) {
-// 				return regex.test(file)
-// 			}))
-// 		}
-// 	})
-// }

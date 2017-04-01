@@ -13,8 +13,7 @@ fs.readdir(folder, function(err, files){
   });
 });
 
-
-module.exports = function(dirname,extension,callback){
+module.exports = function(dirname, extension, callback){
     var list = [];
     var i = 0;
 
